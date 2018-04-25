@@ -1,0 +1,15 @@
+.navbar-brand {
+  transform: translateY(-50%);
+  top: 40%;
+  position: absolute;
+}
+
+.navbar {
+  z-index: 9999;
+  -webkit-box-shadow: 0 3px 2px -2px #999;
+  -moz-box-shadow: 0 3px 2px -2px #999;
+  box-shadow: 0 3px 2px -2px #999;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}

@@ -1,0 +1,21 @@
+.nav-sidebar{
+ width: 100%;
+ padding: 0;
+}
+
+.nav-sidebar li{
+  background-color: #7a7a7a;
+  color: #fff;
+  border: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  padding: 0;
+}
+
+/* General Styling */
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color:inherit!important;
+}

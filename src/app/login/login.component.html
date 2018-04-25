@@ -1,0 +1,55 @@
+<div class="container-fluid main-container">
+
+  <div class="row login-container">
+    <div class="col-md-12">
+      <div class="col-md-12 nopadding">
+        <img class="img-logo" src="../../assets/images/login-logo.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="container-fluid login-box-container">
+        <form (ngSubmit)="signInWithEmail()">
+          <div class="row">
+              <div class="col-md-12 sign-in-title-container">
+                <p class="text-center sub-title-light">Sign in to start your experience on Threelancer</p>
+              </div>
+              <div class="col-md-12">
+                <input type="text"  name="email" [(ngModel)]="email" class="form-control fontAwesome radius-top-borders" placeholder="&#xf007;   E-mail">
+              </div>
+              <div class="col-md-12">
+                <input type="password" name="password" [(ngModel)]="password" class="form-control fontAwesome radius-bottom-borders" placeholder="&#xf023;   Password">
+              </div>
+              <div class="col-md-12">
+                <div class="container-fluid login-box-bottom-container">
+                  <div class="row equal">
+                    <div class="col-md-8 col-sm-12 col-xs-12 forgot-pass-container">
+                      <span class="sub-title-light text-left">Forgot password?</span>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 nopadding">
+                      <button class="btn btn-block btn-login">Login</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="col-md-12 create-account-container text-center">
+        <p>CREATE AN ACCOUNT</p>
+    </div>
+    <div class="col-md-12">
+      <button type="button" class="btn btn-block btn-primary btn-social" (click)="signInWithFacebook()">
+      <span class="pull-left"><i class="fa fa-facebook" aria-hidden="true"></i> |</span>
+      Login with Facebook
+    </button>
+    </div>
+    <div class="col-md-12">
+      <button type="button" class="btn btn-block btn-google btn-social" (click)="signInWithFacebook()">
+      <span class="pull-left"><i class="fa fa-google" aria-hidden="true"></i> |</span>
+      Login with Google
+    </button>
+    </div>
+  </div>
+
+</div>
